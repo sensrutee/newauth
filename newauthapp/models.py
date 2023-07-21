@@ -36,34 +36,3 @@ class CustomUser(AbstractBaseUser, PermissionsMixin):
 
     objects = CustomUserManager()
 
- #{
-#"phonenumber": "9090909000",
-#"username":"admin1",
-#"full_name": "asdf" ,
-
-#"email": "admin11@gmail.com",
-#"password": "admin@000"
-
-#}
-
-
-#{
-#"username":"admin1",
-#"password": "admin@000"
-#}
-
-#"refresh": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY4OTg2OTc1MywiaWF0IjoxNjg5NzgzMzUzLCJqdGkiOiJlODZhYmQyNjJmYzQ0ZDM3OWVjNzJiOWZiY2E2YzYzNyIsInVzZXJfaWQiOjJ9.9FMM80A918aj-_1Y7YmrjklOa5PoQwFc_4O8m-Y3xtY",
-  #  "access": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjg5Nzg0MjUzLCJpYXQiOjE2ODk3ODMzNTMsImp0aSI6ImYzNjM1MGI2ZDA5YzQ1NDM4MWI5ODBmOTljNDM3MWFkIiwidXNlcl9pZCI6Mn0.Qgfuh9xGuqUhxDspkd110fEWJuG-969YH8zeE_5dvXg"
-
-  #{
-   # "refresh": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY4OTg3MDE2OCwiaWF0IjoxNjg5NzgzNzY4LCJqdGkiOiJjOGRhOWJmYWM2N2M0ZmM4OGNmYTE0YmVlNDc0ZWI5OCIsInVzZXJfaWQiOjN9.QkTtMg1AcUEgJmDDst42Rg1bBQNaoPiXT5_oO2u5GD0",
-   # "access": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjg5Nzg0NjY4LCJpYXQiOjE2ODk3ODM3NjgsImp0aSI6IjUyZDM3ZDlkNDQwNjQyN2M4NDQ1MjMwNTYwZjY0ZDA0IiwidXNlcl9pZCI6M30.8BQMM9JlfLAHVCMHSiA4AbEnfNjePdM0e4QDcYTuByg"
-#}
-
-# git init
-#git status
-#git add -A
-#git status
-#git commit -m "newauth"
-#that github command
-#git push origin master
