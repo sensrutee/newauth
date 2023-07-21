@@ -59,3 +59,11 @@ class CustomUser(AbstractBaseUser, PermissionsMixin):
    # "refresh": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY4OTg3MDE2OCwiaWF0IjoxNjg5NzgzNzY4LCJqdGkiOiJjOGRhOWJmYWM2N2M0ZmM4OGNmYTE0YmVlNDc0ZWI5OCIsInVzZXJfaWQiOjN9.QkTtMg1AcUEgJmDDst42Rg1bBQNaoPiXT5_oO2u5GD0",
    # "access": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjg5Nzg0NjY4LCJpYXQiOjE2ODk3ODM3NjgsImp0aSI6IjUyZDM3ZDlkNDQwNjQyN2M4NDQ1MjMwNTYwZjY0ZDA0IiwidXNlcl9pZCI6M30.8BQMM9JlfLAHVCMHSiA4AbEnfNjePdM0e4QDcYTuByg"
 #}
+
+# git init
+#git status
+#git add -A
+#git status
+#git commit -m "newauth"
+#that github command
+#git push origin master
