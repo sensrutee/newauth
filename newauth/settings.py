@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-skp*!vl)+m7wkqqx@5(i-)h+mq@)ro7iz9uqz&^dpvd_g*4$j(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'corsheaders',
     'newauthapp',
 ]
 
@@ -64,7 +65,17 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+
+    'corsheaders.middleware.CorsMiddleware',
+    'django.middleware.security.SecurityMiddleware',
+    'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.common.CommonMiddleware',
 ]
+
+CORS_ORIGIN_ALLOW_ALL = True
+
+
+
 
 ROOT_URLCONF = 'newauth.urls'
 
@@ -89,13 +100,20 @@ WSGI_APPLICATION = 'newauth.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
-
+#first pip install psycopg2
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'blockchain',
+        'USER': 'postgres',
+        'PASSWORD': 'srutee',
+        'HOST': 'localhost',
+        'PORT': '5433',
+
+
     }
 }
+
 
 
 # Password validation
