@@ -110,7 +110,7 @@ DATABASES = {
         'ENGINE':  'myrdshost.rds.amazonaws.com',
         'NAME': 'blockchain',
         'USER': 'postgres',
-        'PASSWORD': 'srutee',
+        'PASSWORD': 'Siance123',
         'HOST': '',
         'PORT': '5432',
 
