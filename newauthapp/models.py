@@ -40,4 +40,7 @@ class CustomUser(AbstractBaseUser, PermissionsMixin):
     objects = CustomUserManager()
 
 #sudo apt install python3-pip -y
+<<<<<<< HEAD
 
+=======
+>>>>>>> e5cd31504118d0e6d4901ec40a6ecd2667bb92d9
