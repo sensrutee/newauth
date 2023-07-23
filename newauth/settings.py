@@ -107,11 +107,11 @@ WSGI_APPLICATION = 'newauth.wsgi.application'
 #first pip install psycopg2
 DATABASES = {
     'default': {
-        'ENGINE':  'myrdshost.rds.amazonaws.com',
+        'ENGINE':  'django.db.backends.postgresql',
         'NAME': 'blockchain',
         'USER': 'postgres',
         'PASSWORD': 'Siance123',
-        'HOST': '',
+        'HOST': 'blockchain.ceki5yrdlrlb.us-east-2.rds.amazonaws.com',
         'PORT': '5432',
 
 
