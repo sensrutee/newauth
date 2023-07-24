@@ -121,7 +121,7 @@ WSGI_APPLICATION = 'newauth.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
+        'NAME': 'database-blockchain',
         'USER': 'postgres',
         'PASSWORD': 'Blockchain_007',
         'HOST': 'database-blockchain.ceki5yrdlrlb.us-east-2.rds.amazonaws.com',
